@@ -4225,19 +4225,6 @@ public class CentralSurfacesImpl implements CoreStartable, CentralSurfaces, Tune
 
     // End Extra BaseStatusBarMethods.
 
-<<<<<<< HEAD
-=======
-    @Override
-    public NotificationGutsManager getGutsManager() {
-        return mGutsManager;
-    }
-	
-	@Override
-	public GameSpaceManager getGameSpaceManager() {
-        return mGameSpaceManager;
-    }
-
->>>>>>> af34a443e44b (SystemUI: Update gamespace for A13)
     boolean isTransientShown() {
         return mTransientShown;
     }
